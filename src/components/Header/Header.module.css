@@ -1,16 +1,41 @@
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 16px 32px;
   background-color: white;
+  border-bottom: 1px solid #e2e8f0;
 }
 
 .logo {
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: 600;
+  color: #2563eb;
 }
 
-.userAvatar img {
-  border-radius: 50%;
+.searchContainer {
+  position: relative;
+  flex-grow: 1;
+  margin: 0 24px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px 16px 10px 40px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: #f8fafc;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #94a3b8;
+}
+
+.userActions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
