@@ -1,7 +1,7 @@
 .sidebar {
   width: 240px;
   height: 100vh;
-  background-color: #f8fafc;
+  background-color: #f9fafb;
   border-right: 1px solid #e2e8f0;
   padding: 20px 0;
   padding-top: 16px;
@@ -9,6 +9,15 @@
 
 .section {
   margin-bottom: 24px;
+}
+
+.section:last-child {
+  margin-top: auto; /* Pushing settings to bottom */
+  padding-bottom: 10px; /* With Extra bottom spacing */
+}
+
+.section:not(:first-child) {
+  margin-top: 24px; /* Space between sections */
 }
 
 .sectionTitle {
@@ -28,7 +37,7 @@
 
 .navItem {
   padding: 10px 24px;
-  color: #334155;
+  color: #374151;
   cursor: pointer;
 }
 
@@ -42,7 +51,7 @@
 }
 
 .navItem:hover {
-  background-color: #e2e8f0;
+  background-color: #f1f5f9;
 }
 
 .navItem.active {
@@ -57,5 +66,8 @@
 
 .navIcon {
   color: #64748b;
+  width: 20px;
   font-size: 18px;
+  display: flex;
+  justify-content: center;
 }
