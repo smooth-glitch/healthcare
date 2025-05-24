@@ -1,0 +1,32 @@
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  background-color: #f8fafc;
+  border-right: 1px solid #e2e8f0;
+  padding: 20px 0;
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+.sectionTitle {
+  color: #64748b;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0 24px;
+  margin-bottom: 12px;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navItem {
+  padding: 10px 24px;
+  color: #334155;
+  cursor: pointer;
+}
