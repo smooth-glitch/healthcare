@@ -3,11 +3,11 @@
 
 ## Project Checklist
 
-- [ ] Project initialized with React (create-react-app or Vite)
-- [ ] Folder structure created
-- [ ] App.js layout built (header, sidebar, main content)
-- [ ] Sidebar component implemented
-- [ ] Header component implemented
+- [✅] Project initialized with React (create-react-app or Vite)
+- [✅] Folder structure created
+- [✅] App.js layout built (header, sidebar, main content)
+- [✅] Sidebar component implemented
+- [✅] Header component implemented
 - [ ] DashboardMainContent with subcomponents scaffolded
 - [ ] Mock data files created
 - [ ] Components receive and display mock data via props
@@ -52,9 +52,9 @@
 
 | Component                | Status | Description |
 |--------------------------|--------|-------------|
-| App                      | ⬜️      | Root layout |
-| Header                   | ⬜️      | Top bar: logo, search, profile |
-| Sidebar                  | ⬜️      | Left nav links with icons |
+| App                      | ✅      | Root layout |
+| Header                   | ✅      | Top bar: logo, search, profile |
+| Sidebar                  | ✅      | Left nav links with icons |
 | DashboardMainContent     | ⬜️      | Main content container |
 | DashboardOverview        | ⬜️      | Summary overview |
 | AnatomySection           | ⬜️      | Body illustration + health indicators |
@@ -68,10 +68,10 @@
 
 ## Technical Decisions
 
-| Area                | Choice        | Notes |
+| Area                | Choice        | Why |
 |---------------------|---------------|-------|
 | React setup         | create-react-app | Beginner friendly |
-| Styling             | CSS / CSS Modules | Based on comfort level |
+| Styling             | CSS / CSS Modules | Easy To Use |
 | Icon Library        | Font Awesome / Lucide | Based on availability |
 | Deployment Target   | Vercel         | Fast, React-optimized |
 | Data Format         | JS modules     | Easier to import and modify |
@@ -80,5 +80,5 @@
 
 ## Notes
 
-- Use placeholder or open-source images for anatomy illustration.
-- Match typography and colors from design closely.
+- To Use placeholder or open-source images for anatomy illustration.
+- To Match typography and colors from design.
