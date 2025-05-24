@@ -30,3 +30,21 @@
   color: #334155;
   cursor: pointer;
 }
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 24px;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.navItem:hover {
+  background-color: #e2e8f0;
+}
+
+.navIcon {
+  color: #64748b;
+  font-size: 18px;
+}
