@@ -5,6 +5,15 @@
   border-right: 1px solid #e2e8f0;
   padding: 20px 0;
   padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.mainContent {
+  flex: 1;
+  overflow-y: auto;
 }
 
 .section {
@@ -27,6 +36,11 @@
   letter-spacing: 0.5px;
   padding: 0 24px;
   margin-bottom: 16px;
+}
+
+.sectionSpacer {
+  height: 60px;
+  position: relative;
 }
 
 .navList {
@@ -70,4 +84,23 @@
   font-size: 18px;
   display: flex;
   justify-content: center;
+}
+
+.settingsContainer {
+  margin-top: auto; /* Pushes to the bottom */
+  padding-top: 60px;
+  border-top: 1px solid #e2e8f0; /* divider line */
+}
+
+.settingsSection {
+  padding: 24px 0;
+  border-top: 1px solid #e2e8f0;
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .settingsContainer {
+    border-top: none;
+    padding-top: 280px;
+  }
 }

@@ -5,7 +5,10 @@ import { FiSearch, FiBell, FiPlus } from "react-icons/fi";
 const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>Healthcare.</div>
+      <div className={styles.logo}>
+        <span className={styles.logoFirst}>Health</span>
+        <span className={styles.logoSecond}>care.</span>
+      </div>
 
       {/* Search bar */}
       <div className={styles.searchContainer}>

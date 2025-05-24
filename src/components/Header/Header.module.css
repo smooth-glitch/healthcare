@@ -16,6 +16,14 @@
   min-width: 132px;
 }
 
+.logoFirst {
+  color: #06b6d4; /* Blue part */
+}
+
+.logoSecond {
+  color: #3b82f6; /* Green part */
+}
+
 /* Search bar*/
 .searchContainer {
   position: relative;
