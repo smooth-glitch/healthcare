@@ -29,7 +29,7 @@ const Header = () => {
             alt="User profile"
             className={styles.avatar}
           />
-          <span className={styles.userName}>Dr. Sarah Johnson</span>
+          <span className={styles.userName}>Dr. jack</span>
         </div>
 
         <button className={styles.addButton}>
