@@ -3,11 +3,11 @@
 
 ## Project Checklist
 
-- [✅] Project initialized with React (create-react-app or Vite)
-- [✅] Folder structure created
-- [✅] App.js layout built (header, sidebar, main content)
-- [✅] Sidebar component implemented
-- [✅] Header component implemented
+- ✅ Project initialized with React (create-react-app or Vite)
+- ✅ Folder structure created
+- ✅ App.js layout built (header, sidebar, main content)
+- ✅ Sidebar component implemented
+- ✅ Header component implemented
 - [ ] DashboardMainContent with subcomponents scaffolded
 - [ ] Mock data files created
 - [ ] Components receive and display mock data via props
