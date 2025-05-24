@@ -1,5 +1,5 @@
 
-# React Healthcare Dashboard (Assignment - May 2025)
+# React Healthcare Dashboard
 
 ## Project Checklist
 
