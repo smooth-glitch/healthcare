@@ -1,9 +1,9 @@
 .header {
   display: flex;
   align-items: center;
-  padding: 16px 32px;
-  background-color: white;
-  border-bottom: 1px solid #e2e8f0;
+  padding: 18px 32px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e7ff;
   height: 72px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
@@ -11,32 +11,38 @@
 .logo {
   font-size: 20px;
   font-weight: 600;
-  color: #2563eb;
+  color: #3b82f6;
   min-width: 120px;
 }
 
 .searchContainer {
   position: relative;
   flex-grow: 1;
-  margin: 0 24px;
+  margin: 0 28px;
 }
 
 .searchInput {
   /* Changed padding*/
   padding: 10px 16px 10px 40px;
-  background-color: #f8fafc;
+  background-color: #f0f4ff;
+  border-color: #c7d2fe;
   font-size: 14px;
 }
 
 .searchIcon {
+  position: absolute;
   left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
   color: #94a3b8;
+  stroke-width: 2;
+  transition: color 0.2s ease;
 }
 
 .userActions {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 28px;
 }
 
 .notificationBtn {
@@ -45,22 +51,25 @@
   border: none;
   padding: 8px;
   color: #64748b;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s ease;
 }
 
 .notificationBtn:hover {
-  color: #1e40af;
+  color: #3b82f6;
 }
 
 .badge {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #ef4444;
+  background-color: #dc2626;
   color: white;
   border-radius: 50%;
-  width: 18px;
-  height: 18px;
-  font-size: 11px;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,7 +83,7 @@
 
 .userName {
   font-size: 14px;
-  color: #1e293b;
+  color: #1e3a8a;
 }
 
 .avatar {
@@ -82,23 +91,25 @@
   height: 36px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #e2e8f0;
+  border: 2px solid #dbeafe;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .addButton {
-  background-color: #2563eb;
+  background-color: #3b82f6;
   color: white;
   border: none;
   border-radius: 8px;
-  padding: 8px 16px;
+  padding: 8px 12px;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   font-size: 14px;
+  font-weight: 500;
 }
 
 .addButton:hover {
-  background-color: #1d4ed8;
+  background-color: #2563eb;
 }
 
 @media (max-width: 768px) {
