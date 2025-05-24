@@ -4,6 +4,7 @@
   background-color: #f8fafc;
   border-right: 1px solid #e2e8f0;
   padding: 20px 0;
+  padding-top: 16px;
 }
 
 .section {
@@ -16,7 +17,7 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding: 0 24px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .navList {
@@ -35,13 +36,23 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 10px 24px;
+  padding: 12px 24px;
   font-size: 14px;
   transition: all 0.2s;
 }
 
 .navItem:hover {
   background-color: #e2e8f0;
+}
+
+.navItem.active {
+  background-color: #e0e7ff;
+  color: #3b82f6;
+  border-right: 3px solid #3b82f6;
+}
+
+.navItem.active .navIcon {
+  color: #3b82f6;
 }
 
 .navIcon {

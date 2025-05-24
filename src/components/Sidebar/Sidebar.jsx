@@ -1,6 +1,4 @@
 import React from "react";
-import styles from "./Sidebar.module.css";
-
 import {
   FiHome,
   FiCalendar,
@@ -9,6 +7,7 @@ import {
   FiActivity,
   FiFileText,
 } from "react-icons/fi";
+import styles from "./Sidebar.module.css";
 
 const navItems = [
   { icon: <FiHome />, label: "Dashboard" },
@@ -23,13 +22,21 @@ const navItems = [
 ];
 
 const Sidebar = () => {
+  const [activeItem, setActiveItem] = React.useState(0);
+
   return (
     <aside className={styles.sidebar}>
       <div className={styles.section}>
         <h3 className={styles.sectionTitle}>General</h3>
         <ul className={styles.navList}>
           {navItems.map((item, index) => (
-            <li key={index} className={styles.navItem}>
+            <li
+              key={index}
+              className={`${styles.navItem} ${
+                activeItem === index ? styles.active : ""
+              }`}
+              onClick={() => setActiveItem(index)}
+            >
               <span className={styles.navIcon}>{item.icon}</span>
               {item.label}
             </li>
