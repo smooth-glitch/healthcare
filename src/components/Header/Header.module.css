@@ -1,6 +1,7 @@
 .header {
   display: flex;
   align-items: center;
+  width: 100%;
   height: 72px;
   padding: 0 32px;
   background: #ffffff;
@@ -16,6 +17,21 @@
   min-width: 132px;
 }
 
+.logoContainer {
+  width: 240px; /* Matches sidebar width */
+  display: flex;
+  align-items: center;
+  padding-left: 24px; /* Matches sidebar padding */
+}
+
+.logoWrapper {
+  width: 240px; /* Must match sidebar width */
+  padding-left: 24px; /* Match sidebar item padding */
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
 .logoFirst {
   color: #06b6d4; /* Blue part */
 }
@@ -28,8 +44,8 @@
 .searchContainer {
   position: relative;
   flex-grow: 1;
-  margin: 0 28px;
-  max-width: 520px;
+  margin: 0 px;
+  max-width: 700px;
 }
 
 .searchInput {

@@ -2,9 +2,10 @@
   width: 240px;
   height: 100vh;
   background-color: #f9fafb;
+  background: #f8fafc;
   border-right: 1px solid #e2e8f0;
   padding: 20px 0;
-  padding-top: 16px;
+  padding-top: 72px;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -102,5 +103,9 @@
   .settingsContainer {
     border-top: none;
     padding-top: 280px;
+  }
+
+  .rightActions {
+    gap: 16px;
   }
 }

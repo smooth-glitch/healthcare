@@ -5,19 +5,22 @@ import { FiSearch, FiBell, FiPlus } from "react-icons/fi";
 const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
-        <span className={styles.logoFirst}>Health</span>
-        <span className={styles.logoSecond}>care.</span>
+      {/* Logo */}
+      <div className={styles.logoWrapper}>
+        <div className={styles.logo}>
+          <span className={styles.logoFirst}>Health</span>
+          <span className={styles.logoSecond}>care.</span>
+        </div>
       </div>
 
       {/* Search bar */}
       <div className={styles.searchContainer}>
-        <FiSearch className={styles.searchIcon} size={18} strokeWidth={2.3} />
+        <FiSearch className={styles.searchIcon} />
         <input
           type="text"
+          placeholder=""
           className={styles.searchInput}
           disabled
-          aria-label="Search"
         />
       </div>
 
@@ -33,10 +36,9 @@ const Header = () => {
         <div className={styles.userProfile}>
           <img
             src="https://i.pravatar.cc/150?img=32"
-            alt="Dr. Emily"
+            alt="User"
             className={styles.avatar}
           />
-          <span className={styles.userName}>Dr. Sarah Johnson</span>
         </div>
 
         {/* Add button */}
