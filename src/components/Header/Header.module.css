@@ -28,6 +28,7 @@
   width: 240px; /* Must match sidebar width */
   padding-left: 24px; /* Match sidebar item padding */
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   height: 100%;
 }
@@ -44,8 +45,8 @@
 .searchContainer {
   position: relative;
   flex-grow: 1;
-  margin: 0 px;
-  max-width: 700px;
+  margin: 0 40px;
+  max-width: 800px;
 }
 
 .searchInput {
@@ -72,6 +73,14 @@
   display: flex;
   align-items: center;
   gap: 28px;
+}
+
+.rightActions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-right: 24px;
+  flex-shrink: 0; /* Prevents squeezing */
 }
 
 /* Notification bell */
